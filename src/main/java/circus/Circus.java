@@ -63,7 +63,7 @@ public class Circus {
         }
         System.out.println("Louie's position is: " + animalArrayList.indexOf(louie)); //RECALL INDEX OF CAN ONLY BE USED if instance is generated. EG
                                                                                         //Duck louie = new Duck("Louie"). If just animalArrayList.add(new Tiger("Sherkhan")),
-                                                                                    //won't be able to use "indexOf"
+                                                                                    //won't be able to use "indexOf".
 
         animalArrayList.sort(Animal.AnimalNameComparator);
         for(Animal a: animalArrayList) {
